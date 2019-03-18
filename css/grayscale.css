@@ -422,7 +422,7 @@ footer {
 }
 
 #mobiletext {
-    margin-top: -400px;
+    margin-top: -200px;
 }
 
 @media (min-width: 1850px) { /*adjusts texts around 532*/
@@ -635,8 +635,6 @@ footer {
         font-size: 1.2rem;
     }
 }
-
-
 
 @media (min-width: 992px) {
     .masthead {

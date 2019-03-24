@@ -44,7 +44,7 @@
 }
 
 .navbar-nav {
-    margin: 0 auto;
+    margin-left: 50%;
 }
 
 .masthead {
@@ -423,6 +423,10 @@ footer {
 
 #mobiletext {
     margin-top: -200px;
+}
+
+#navBarResponsive {
+    margin: 0 auto;
 }
 
 @media (min-width: 1850px) { /*adjusts texts around 532*/

@@ -4,6 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+html, body {
+    overflow-x: hidden;
+}
+body {
+    position: relative
+}
+
+
 #mainNav {
     min-height: 56px;
     background-color: #fff;

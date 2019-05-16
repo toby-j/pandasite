@@ -1,3 +1,8 @@
+Content-Security-Policy:
+default-src 'self';
+script-src 'self' https://code.jquery.com;
+
+
 $(window).on('scroll', function () {
         var LvlTrig = 0 + $(window).scrollTop() / 700;
         console.log(LvlTrig);

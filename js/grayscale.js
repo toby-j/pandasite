@@ -1,8 +1,3 @@
-Content-Security-Policy:
-default-src 'self';
-script-src 'self' https://code.jquery.com;
-
-
 $(window).on('scroll', function () {
         var LvlTrig = 0 + $(window).scrollTop() / 700;
         console.log(LvlTrig);
@@ -12,7 +7,7 @@ $(window).on('scroll', function () {
             $('#builttolast').fadeIn({queue: false, duration: 'slow'});
             $('#builttolast').animate({ top: "-10%" }, 'slow');
             $('#hydration').fadeIn({queue: false, duration: 'slow'});
-            $('#hydration').animate({ top: "20%" }, 'slow');
+            $('#hydration').animate({ top: "10%" }, 'slow');
         }
 });
 

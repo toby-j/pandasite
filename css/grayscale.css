@@ -322,6 +322,9 @@ footer {
     border-color: #709926 !important;
 }
 
+.choicecon {
+    margin-top: 300px;
+}
 .commutebar {
     background-color: #709926;
     height: 4px;
@@ -504,6 +507,9 @@ footer {
         font-size: 4rem;
         line-height: 4rem;
     }
+    .masthead h1 {
+        letter-spacing: 2px;
+    }
 }
 
 
@@ -528,7 +534,7 @@ footer {
     .masthead h1 {
         font-size: 1.2rem;
         line-height: 3rem;
-        letter-spacing: 5px;
+        letter-spacing: 3px;
     }
 
     .masthead h3 {
@@ -570,6 +576,9 @@ footer {
     #plasticrow h3 {
         font-size: 1.3rem;
     }
+    .choicecon {
+        margin-top: 0px;
+    }
     .commutebar {
         width: 80px;
     }
@@ -584,7 +593,7 @@ footer {
         font-size: 1.3rem;
     }
     #mobiletext h3 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 }
 
@@ -625,7 +634,8 @@ footer {
         font-size: 0.8rem;
     }
     #titlecon h1 {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
+        font-weight: 500;
     }
     .masthead2 h2 {
         font-size: 1.3rem; !important
@@ -637,14 +647,17 @@ footer {
         height: 60vh;
         padding: 0;
     }
-    .masthead {
-        height: 60vh;
+    .masthead h1 {
+        letter-spacing: 2px;
+    }
+    .masthead h4 {
+        display: none;
     }
     #mobiletext h2 {
         font-size: 1.0rem;
     }
     #mobiletext h3 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }
 

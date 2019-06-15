@@ -6,7 +6,7 @@ $(window).on('scroll', function () {
             $('#builttolast').fadeIn({queue: false, duration: 'slow'});
             $('#builttolast').animate({ top: "-10%" }, 'slow');
             $('#hydration').fadeIn({queue: false, duration: 'slow'});
-            $('#hydration').animate({ top: "20%" }, 'slow');
+            $('#hydration').animate({ top: "10%" }, 'slow');
         }
 });
 

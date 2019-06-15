@@ -1,6 +1,5 @@
 $(window).on('scroll', function () {
         var LvlTrig = 0 + $(window).scrollTop() / 700;
-        console.log(LvlTrig);
         if (LvlTrig > 0.3) {
             $('#commuterow').fadeIn({queue: false, duration: 'slow'});
             $('#commuterow').animate({ top: "60%" }, 'slow');
@@ -10,6 +9,26 @@ $(window).on('scroll', function () {
             $('#hydration').animate({ top: "20%" }, 'slow');
         }
 });
+
+// $(".circlewhite").click(function(){
+//     console.log("memes");
+//     $('.img').addClass('new-masthead2').removeClass('masthead2')
+// });
+$(function() {
+    $('.circlewhite').on('click', function() {
+        $('.masthead2').css('background-image', 'url("img/whiteheader.png")');
+    });
+    $('.circlerose').on('click', function() {
+        $('.masthead2').css('background-image', 'url("img/roseheader.png")');
+    });
+    $('.circlerosemobile').on('click', function() {
+        $('.masthead2').css('background-image', 'url("img/roseheader.png")');
+    });
+    $('.circlewhitemobile').on('click', function() {
+        $('.masthead2').css('background-image', 'url("img/whiteheader.png")');
+    });
+});
+
 
 
 (function($) {

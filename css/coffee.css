@@ -62,11 +62,29 @@ body {
     min-height: 35rem;
     padding: 15rem 0;
     /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(100%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");*/
-    background: url("../img/bg-masthead.png");
+    background: url("../img/whiteimg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+}
+
+.masthead2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(100%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");*/
+    background-image: url("../img/roseheader.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.img {
+    background-image: url("../img/whiteheader.png");
 }
 
 .masthead h1 {
@@ -82,6 +100,8 @@ body {
     font-size: 1rem;
 }
 
+
+
 .btn {
     -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -89,7 +109,7 @@ body {
     font-family: 'Varela Round';
     font-size: 80%;
     text-transform: uppercase;
-    letter-spacing: .15rem;
+    letter-spacing: 0.15rem;
     border: 0;
 }
 
@@ -250,22 +270,6 @@ footer {
     padding: 5rem 0;
 }
 
-.masthead2 {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(100%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");*/
-    background: url("../img/ipad.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    padding-bottom: 500px;
-    background-clip: content-box;
-}
-
 .masthead2 h1 {
     font-family: 'Montserrat';
     font-weight: 600;
@@ -293,8 +297,6 @@ footer {
 }
 
 
-
-
 #bepandalogo {
     height: 100px;
 }
@@ -320,11 +322,8 @@ footer {
     border-color: #709926 !important;
 }
 
-.choicecon {
-    margin-top: 300px;
-}
 .commutebar {
-    background-color: #709926;
+    background-color: #4f837f;
     height: 4px;
     width: 250px;
     margin: 0 auto;
@@ -333,10 +332,14 @@ footer {
 #commuterow {
     margin-left: 5%;
     display: none;
+    padding-top: 300px;
 }
 
 #builttolast {
     display: none;
+    margin-left: 5%;
+    display: none;
+    padding-top: 360px;
 }
 
 #hydration {
@@ -346,7 +349,7 @@ footer {
 
 #buynow {
     margin-right: 5%;
-    top: 90px;
+    margin-top: 20%;
 }
 
 .polologo {
@@ -366,8 +369,13 @@ footer {
     margin-right: 30%;
 }
 
-#headmast2con {
-    width: 50%;
+#headmast2con img {
+    width: auto;
+    max-height: 800px;
+}
+
+#headmast2con img {
+
 }
 
 #bpstudio img{
@@ -408,7 +416,8 @@ footer {
 }
 
 #infuser {
-    max-height: 700px;
+    max-height: 600px;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -438,12 +447,81 @@ footer {
     margin: 0 auto;
 }
 
-.circle {
+#coffeetable h1 {
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.whitebox img {
+    height: 50vw;
+    left: 0;
+    position: absolute;
+}
+
+#collab h1 {
+    font-weight: 700;
+}
+
+.circlewhite {
     height: 50px;
     width: 50px;
-    background-color: #555;
+    background-color: #E7E7E7;
     border-radius: 50%;
+    padding: 0 auto;
+    float: right;
+    margin-right: 30%;
+    border-width: 0px;
+    transition: 0.4s;
+
 }
+
+.circlewhitemobile {
+    height: 50px;
+    width: 50px;
+    background-color: #E7E7E7;
+    border-radius: 50%;
+    padding: 0 auto;
+    float: right;
+    margin: 0 auto;
+    border-width: 0px;
+    transition: 0.4s;
+
+}
+
+.circlerose {
+    height: 50px;
+    width: 50px;
+    background-color: #D29D97;
+    border-radius: 50%;
+    float: left;
+    margin-left: 30%;
+    border-width: 0px;
+    transition: 0.4s;
+}
+
+.circlerosemobile {
+    height: 50px;
+    width: 50px;
+    background-color: #D29D97;
+    border-radius: 50%;
+    float: left;
+    margin: 0 auto;
+    border-width: 0px;
+    transition: 0.4s;
+}
+
+.circlewhite:hover {
+    background-color: #dddddd;
+}
+
+.circlerose:hover {
+    background-color: #c4918b;
+}
+
+.circlecon {
+    margin-top: 200px;
+}
+
 
 @media (min-width: 1850px) { /*adjusts texts around 532*/
     #commuterow {
@@ -512,18 +590,13 @@ footer {
         font-size: 4rem;
         line-height: 4rem;
     }
-    .masthead h1 {
-        letter-spacing: 2px;
-    }
 }
 
 
 
 @media (min-width: 768px) {
     .masthead h1 {
-        font-size: 1.5rem;
-        line-height: 3rem;
-        letter-spacing: 5px;
+        letter-spacing: 2px;
     }
 
     .masthead h3 {
@@ -537,9 +610,16 @@ footer {
 
 @media (max-width: 768px) {
     .masthead h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 3rem;
-        letter-spacing: 3px;
+        letter-spacing: 5px;
+    }
+    #discounttitle {
+        font-size: 1.5rem;
+    }
+
+    #habit {
+        font-size: 1.1rem;
     }
 
     .masthead h3 {
@@ -578,11 +658,14 @@ footer {
     #titlecon h1 {
         font-size: 1.6rem;
     }
+    #discounttitle {
+        font-size: 1.6rem;
+    }
+    #habit {
+        font-size: 1.3rem
+    }
     #plasticrow h3 {
         font-size: 1.3rem;
-    }
-    .choicecon {
-        margin-top: 0px;
     }
     .commutebar {
         width: 80px;
@@ -598,7 +681,7 @@ footer {
         font-size: 1.3rem;
     }
     #mobiletext h3 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -612,11 +695,28 @@ footer {
     .mobile3 {
         display: none; !important
     }
-    .mobile0 {
+    .circlerosemobile {
+        visibility: hidden; !important
+    }
+    .circlewhitemobile {
+        visibility: hidden; !important
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    #buynow {
         display: none; !important
     }
 
 }
+
+@media only screen and (min-width: 1200px) {
+    .mobile0 {
+        display: none; !important
+    }
+}
+
 @media only screen and (max-width: 992px) {
     #hydration {
         visibility: hidden; !important
@@ -628,6 +728,12 @@ footer {
         visibility: hidden; !important
     }
     #buynow {
+        visibility: hidden; !important
+    }
+    .circlerose {
+        visibility: hidden; !important
+    }
+    .circlewhite {
         visibility: hidden; !important
     }
 
@@ -652,17 +758,14 @@ footer {
         height: 60vh;
         padding: 0;
     }
-    .masthead h1 {
-        letter-spacing: 2px;
-    }
-    .masthead h4 {
-        display: none;
+    .masthead {
+        height: 60vh;
     }
     #mobiletext h2 {
         font-size: 1.0rem;
     }
     #mobiletext h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -675,7 +778,7 @@ footer {
     .masthead h1 {
         font-size: 3.2rem;
         line-height: 6.5rem;
-        letter-spacing: 0.3rem;
+        letter-spacing: 0.2rem;
     }
     #collab {
         display: flex;
@@ -687,7 +790,6 @@ footer {
     }
     .infusertext2 {
         max-height: 100px;
-        margin-top: 300px;
 
     }
 }
@@ -784,4 +886,5 @@ footer {
         border-bottom: 0.25rem solid #64a19d;
     }
 }
+
 
